@@ -4,7 +4,7 @@ from connection import *
 from manager import *
 def help_usage():
 
-  print """Usage: ./slowhttpread [OPTIONS]...
+  print """Usage: python2.7 slowtest.py [OPTIONS]...
   Options: 
 	-h, --host	        Specify the destination host	
 	-t, --threads	    The threads for complete total connections  	
@@ -16,7 +16,7 @@ def help_usage():
 	
 Example:
 
-	./slowhttpread -h 192.168.1.2  -t 200 
+	./python2.7 slowtest.py -h 192.168.1.2  -t 200 
 
 	This execution will generate a attack using 200 threads 
 """
